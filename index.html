@@ -1,0 +1,942 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Clothing Retailer</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+</head>
+
+<body>
+    <header id="header">
+
+        <div class="header-top-bar">
+            <span>Welcome to Our Clothing Store</span>
+        </div>
+
+        <nav class="navigation">
+
+            <a href="#" class="logo">
+                <img src="images/logo.jpg" alt="logo" />
+            </a>
+            <ul class="menu">
+                <li><a href="#new_product_men" class="active">Men's</a></li>
+                <li><a href="#new_product_women">Women's</a></li>
+                <li><a href="#new_product_kid">Kids</a></li>
+                <li><a href="#category">New Arrivals</a></li>
+                <li><a href="#new_product_promotion">Promotions</a></li>
+            </ul>
+            <div class="right-nav">
+                <a href="#" class="nav-search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </a>
+                <a href="#" class="nav-user">
+                    <i class="fa-regular fa-user"></i>
+                </a>
+                <a href="#" class="nav-cart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span>0</span>
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <section id="main-banner">
+        <div class="main-banner-box">
+            <img src="images/banner_2.jpg" alt="Banner" />
+
+            <div class="main-banner-text">
+                <h1>Family Cloth Collection</h1>
+                <p>Lorem ipsum, dolor, sit, amet.</p>
+                <a href="#category">Shop Now</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="what-we-provide">
+        <div class="w-info-box">
+            <div class="w-info-icon">
+                <i class="fa-solid fa-plane"></i>
+            </div>
+            <div class="w-info-text">
+                <strong>Free Shipping</strong>
+                <p>Lorem ipsum dolor sit.</p>
+            </div>
+        </div>
+
+        <div class="w-info-box">
+            <div class="w-info-icon">
+                <i class="fa-regular fa-comments"></i>
+            </div>
+            <div class="w-info-text">
+                <strong>Support 24/7</strong>
+                <p>Lorem ipsum dolor sit.</p>
+            </div>
+        </div>
+
+        <div class="w-info-box">
+            <div class="w-info-icon">
+                <i class="fa-regular fa-credit-card"></i>
+            </div>
+            <div class="w-info-text">
+                <strong>100% Payment Secure</strong>
+                <p>Lorem ipsum dolor sit.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="product-grid-half">
+        <div class="product-grid-box product-grid-box1">
+            <img src="images/box1.jpg" alt="Product" />
+            <div class="product-grid-text">
+                <span>Beautiful</span>
+                <strong>Men's Clothes</strong>
+                <a href="#new_product_men">Shop Now</a>
+            </div>
+        </div>
+        <div class="product-grid-box product-grid-box2">
+            <img src="images/box2.jpg" alt="Product" />
+            <div class="product-grid-text">
+                <span>Beautiful</span>
+                <strong>Women's Clothes</strong>
+                <a href="#new_product_women">Shop Now</a>
+            </div>
+        </div>
+        <div class="product-grid-box product-grid-box3">
+            <img src="images/box3.jpg" alt="Product" />
+            <div class="product-grid-text">
+                <span>Beautiful</span>
+                <strong>Kid's Clothes</strong>
+                <a href="#new_product_kid">Shop Now</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="new_product_men">
+
+
+        <div class="new-product-heading">
+            <h2>Men's Clothing</h2>
+            <p>Add our products to Weekly lineup</p>
+        </div>
+
+        <div class="new-product-container">
+
+            <!-- Swiper -->
+            <div class="swiper mySwiperNewProduct">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <div class="new-product-box">
+                            <a href="#" class="new-product-img">
+                                <img src="images/Product-1.jpg" alt="product" />
+                                <span>New</span>
+                                <button class="new-product-cart-btn"><i class="fa-solid fa-cart-shopping"></i>Add To
+                                    Cart</button>
+                            </a>
+                            <div class="new-product-text">
+                                <a href="#" class="new-product-title">Dress For Men</a>
+                                <span>R.S. 200/=</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="new-product-box">
+                            <a href="#" class="new-product-img">
+                                <img src="images/Product-2.jpg" alt="product" />
+                                <span>New</span>
+                                <button class="new-product-cart-btn"><i class="fa-solid fa-cart-shopping"></i>Add To
+                                    Cart</button>
+                            </a>
+                            <div class="new-product-text">
+                                <a href="#" class="new-product-title">Dress For Men</a>
+                                <span>R.S. 200/=</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="new-product-box">
+                            <a href="#" class="new-product-img">
+                                <img src="images/product-3.jpg" alt="product" />
+                                <span>New</span>
+                                <button class="new-product-cart-btn"><i class="fa-solid fa-cart-shopping"></i>Add To
+                                    Cart</button>
+                            </a>
+                            <div class="new-product-text">
+                                <a href="#" class="new-product-title">Dress For Men</a>
+                                <span>R.S. 200/=</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="new-product-box">
+                            <a href="#" class="new-product-img">
+                                <img src="images/product-4.jpg" alt="product" />
+                                <span>New</span>
+                                <button class="new-product-cart-btn"><i class="fa-solid fa-cart-shopping"></i>Add To
+                                    Cart</button>
+                            </a>
+                            <div class="new-product-text">
+                                <a href="#" class="new-product-title">Dress For Men</a>
+                                <span>R.S. 200/=</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="new-product-box">
+                            <a href="#" class="new-product-img">
+                                <img src="images/product-5.jpg" alt="product" />
+                                <span>New</span>
+                                <button class="new-product-cart-btn"><i class="fa-solid fa-cart-shopping"></i>Add To
+                                    Cart</button>
+                            </a>
+                            <div class="new-product-text">
+                                <a href="#" class="new-product-title">Dress For Men</a>
+                                <span>R.S. 200/=</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="new-product-box">
+                            <a href="#" class="new-product-img">
+                                <img src="images/product-6.jpg" alt="product" />
+                                <span>New</span>
+                                <button class="new-product-cart-btn"><i class="fa-solid fa-cart-shopping"></i>Add To
+                                    Cart</button>
+                            </a>
+                            <div class="new-product-text">
+                                <a href="#" class="new-product-title">Dress For Men</a>
+                                <span>R.S. 200/=</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="new-product-box">
+                            <a href="#" class="new-product-img">
+                                <img src="images/product-7.jpg" alt="product" />
+                                <span>New</span>
+                                <button class="new-product-cart-btn"><i class="fa-solid fa-cart-shopping"></i>Add To
+                                    Cart</button>
+                            </a>
+                            <div class="new-product-text">
+                                <a href="#" class="new-product-title">Dress For Men</a>
+                                <span>R.S. 200/=</span>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+        </div>
+
+
+    </section>
+
+    <section id="new_product_women">
+
+
+        <div class="new-product-heading">
+            <h2>Women's Clothing</h2>
+            <p>Add our products to Weekly lineup</p>
+        </div>
+
+        <div class="new-product-container">
+
+            <!-- Swiper -->
+            <div class="swiper mySwiperNewProduct">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <div class="new-product-box">
+                            <a href="#" class="new-product-img">
+                                <img src="images/Product -9.jpg" alt="product" />
+                                <span>New</span>
+                                <button class="new-product-cart-btn"><i class="fa-solid fa-cart-shopping"></i>Add To
+                                    Cart</button>
+                            </a>
+                            <div class="new-product-text">
+                                <a href="#" class="new-product-title">Dress For Men</a>
+                                <span>R.S. 200/=</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="new-product-box">
+                            <a href="#" class="new-product-img">
+                                <img src="images/Product -10.jpg" alt="product" />
+                                <span>New</span>
+                                <button class="new-product-cart-btn"><i class="fa-solid fa-cart-shopping"></i>Add To
+                                    Cart</button>
+                            </a>
+                            <div class="new-product-text">
+                                <a href="#" class="new-product-title">Dress For Men</a>
+                                <span>R.S. 200/=</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="new-product-box">
+                            <a href="#" class="new-product-img">
+                                <img src="images/Product -11.jpg" alt="product" />
+                                <span>New</span>
+                                <button class="new-product-cart-btn"><i class="fa-solid fa-cart-shopping"></i>Add To
+                                    Cart</button>
+                            </a>
+                            <div class="new-product-text">
+                                <a href="#" class="new-product-title">Dress For Men</a>
+                                <span>R.S. 200/=</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="new-product-box">
+                            <a href="#" class="new-product-img">
+                                <img src="images/Product -12.jpg" alt="product" />
+                                <span>New</span>
+                                <button class="new-product-cart-btn"><i class="fa-solid fa-cart-shopping"></i>Add To
+                                    Cart</button>
+                            </a>
+                            <div class="new-product-text">
+                                <a href="#" class="new-product-title">Dress For Men</a>
+                                <span>R.S. 200/=</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="new-product-box">
+                            <a href="#" class="new-product-img">
+                                <img src="images/Product-13.jpg" alt="product" />
+                                <span>New</span>
+                                <button class="new-product-cart-btn"><i class="fa-solid fa-cart-shopping"></i>Add To
+                                    Cart</button>
+                            </a>
+                            <div class="new-product-text">
+                                <a href="#" class="new-product-title">Dress For Men</a>
+                                <span>R.S. 200/=</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="new-product-box">
+                            <a href="#" class="new-product-img">
+                                <img src="images/Product-14.jpg" alt="product" />
+                                <span>New</span>
+                                <button class="new-product-cart-btn"><i class="fa-solid fa-cart-shopping"></i>Add To
+                                    Cart</button>
+                            </a>
+                            <div class="new-product-text">
+                                <a href="#" class="new-product-title">Dress For Men</a>
+                                <span>R.S. 200/=</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="new-product-box">
+                            <a href="#" class="new-product-img">
+                                <img src="images/Product-15.jpg" alt="product" />
+                                <span>New</span>
+                                <button class="new-product-cart-btn"><i class="fa-solid fa-cart-shopping"></i>Add To
+                                    Cart</button>
+                            </a>
+                            <div class="new-product-text">
+                                <a href="#" class="new-product-title">Dress For Men</a>
+                                <span>R.S. 200/=</span>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+        </div>
+
+
+    </section>
+
+    <section id="new_product_kid">
+
+        <div class="new-product-heading">
+            <h2>Kid's Clothing</h2>
+            <p>Add our products to Weekly lineup</p>
+        </div>
+
+        <div class="feature-product-container">
+
+            <div class="new-product-box">
+                <a href="#" class="new-product-img">
+                    <img src="images/Product- 16.jpg" alt="product" />
+                    <span>New</span>
+                    <button class="new-product-cart-btn"><i class="fa-solid fa-cart-shopping"></i>Add To
+                        Cart</button>
+                </a>
+                <div class="new-product-text">
+                    <a href="#" class="new-product-title">Dress For Men</a>
+                    <span>R.S. 200/=</span>
+                </div>
+            </div>
+
+            <div class="new-product-box">
+                <a href="#" class="new-product-img">
+                    <img src="images/Product- 17.jpg" alt="product" />
+                    <span>New</span>
+                    <button class="new-product-cart-btn"><i class="fa-solid fa-cart-shopping"></i>Add To
+                        Cart</button>
+                </a>
+                <div class="new-product-text">
+                    <a href="#" class="new-product-title">Dress For Men</a>
+                    <span>R.S. 200/=</span>
+                </div>
+            </div>
+
+            <div class="new-product-box">
+                <a href="#" class="new-product-img">
+                    <img src="images/Product- 18.jpg" alt="product" />
+                    <span>New</span>
+                    <button class="new-product-cart-btn"><i class="fa-solid fa-cart-shopping"></i>Add To
+                        Cart</button>
+                </a>
+                <div class="new-product-text">
+                    <a href="#" class="new-product-title">Dress For Men</a>
+                    <span>R.S. 200/=</span>
+                </div>
+            </div>
+
+            <div class="new-product-box">
+                <a href="#" class="new-product-img">
+                    <img src="images/Product- 19.jpg" alt="product" />
+                    <span>New</span>
+                    <button class="new-product-cart-btn"><i class="fa-solid fa-cart-shopping"></i>Add To
+                        Cart</button>
+                </a>
+                <div class="new-product-text">
+                    <a href="#" class="new-product-title">Dress For Men</a>
+                    <span>R.S. 200/=</span>
+                </div>
+            </div>
+
+            <div class="new-product-box">
+                <a href="#" class="new-product-img">
+                    <img src="images/Product- 20.jpg" alt="product" />
+                    <span>New</span>
+                    <button class="new-product-cart-btn"><i class="fa-solid fa-cart-shopping"></i>Add To
+                        Cart</button>
+                </a>
+                <div class="new-product-text">
+                    <a href="#" class="new-product-title">Dress For Men</a>
+                    <span>R.S. 200/=</span>
+                </div>
+            </div>
+
+            <div class="new-product-box">
+                <a href="#" class="new-product-img">
+                    <img src="images/Product- 21.jpg" alt="product" />
+                    <span>New</span>
+                    <button class="new-product-cart-btn"><i class="fa-solid fa-cart-shopping"></i>Add To
+                        Cart</button>
+                </a>
+                <div class="new-product-text">
+                    <a href="#" class="new-product-title">Dress For Men</a>
+                    <span>R.S. 200/=</span>
+                </div>
+            </div>
+
+            <div class="new-product-box">
+                <a href="#" class="new-product-img">
+                    <img src="images/Product- 22.jpg" alt="product" />
+                    <span>New</span>
+                    <button class="new-product-cart-btn"><i class="fa-solid fa-cart-shopping"></i>Add To
+                        Cart</button>
+                </a>
+                <div class="new-product-text">
+                    <a href="#" class="new-product-title">Dress For Men</a>
+                    <span>R.S. 200/=</span>
+                </div>
+            </div>
+
+            <div class="new-product-box">
+                <a href="#" class="new-product-img">
+                    <img src="images/Product- 23.jpg" alt="product" />
+                    <span>New</span>
+                    <button class="new-product-cart-btn"><i class="fa-solid fa-cart-shopping"></i>Add To
+                        Cart</button>
+                </a>
+                <div class="new-product-text">
+                    <a href="#" class="new-product-title">Dress For Men</a>
+                    <span>R.S. 200/=</span>
+                </div>
+            </div>
+
+            <div class="new-product-box">
+                <a href="#" class="new-product-img">
+                    <img src="images/Product- 24.jpg" alt="product" />
+                    <span>New</span>
+                    <button class="new-product-cart-btn"><i class="fa-solid fa-cart-shopping"></i>Add To
+                        Cart</button>
+                </a>
+                <div class="new-product-text">
+                    <a href="#" class="new-product-title">Dress For Men</a>
+                    <span>R.S. 200/=</span>
+                </div>
+            </div>
+
+            <div class="new-product-box">
+                <a href="#" class="new-product-img">
+                    <img src="images/Product- 25.jpg" alt="product" />
+                    <span>New</span>
+                    <button class="new-product-cart-btn"><i class="fa-solid fa-cart-shopping"></i>Add To
+                        Cart</button>
+                </a>
+                <div class="new-product-text">
+                    <a href="#" class="new-product-title">Dress For Men</a>
+                    <span>R.S. 200/=</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="category">
+
+        <div class="new-product-heading">
+            <h2>New Arrivals</h2>
+            <p>Add our products to Weekly lineup</p>
+        </div>
+
+        <div class="category-container">
+            <a href="#" class="category-box">
+                <img src="images/img1-middle  (1).jpg" alt="category" />
+                <strong>Ring</strong>
+            </a>
+
+            <a href="#" class="category-box">
+                <img src="images/img1-middle  (6).jpg" alt="category" />
+                <strong>Ring</strong>
+            </a>
+
+            <a href="#" class="category-box">
+                <img src="images/img1-middle  (7).jpg" alt="category" />
+                <strong>Ring</strong>
+            </a>
+
+            <a href="#" class="category-box">
+                <img src="images/img1-middle  (8).jpg" alt="category" />
+                <strong>Ring</strong>
+            </a>
+
+        </div>
+    </section>
+
+    <section id="new_product_promotion">
+
+
+        <div class="new-product-heading">
+            <h2>Pramotions</h2>
+            <p>Add our products to Weekly lineup</p>
+        </div>
+
+        <div class="new-product-container">
+
+            <!-- Swiper -->
+            <div class="swiper mySwiperNewProduct">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <div class="new-product-box">
+                            <a href="#" class="new-product-img">
+                                <img src="images/Product-26.jpg" alt="product" />
+                                <span>-50% off</span>
+                                <button class="new-product-cart-btn"><i class="fa-solid fa-cart-shopping"></i>Add To
+                                    Cart</button>
+                            </a>
+                            <div class="new-product-text">
+                                <a href="#" class="new-product-title">Dress For Men</a>
+                                <span>R.S. 200/=</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="new-product-box">
+                            <a href="#" class="new-product-img">
+                                <img src="images/Product-27.jpg" alt="product" />
+                                <span>-20% off</span>
+                                <button class="new-product-cart-btn"><i class="fa-solid fa-cart-shopping"></i>Add To
+                                    Cart</button>
+                            </a>
+                            <div class="new-product-text">
+                                <a href="#" class="new-product-title">Dress For Men</a>
+                                <span>R.S. 200/=</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="new-product-box">
+                            <a href="#" class="new-product-img">
+                                <img src="images/Product-28.jpg" alt="product" />
+                                <span>-30% off</span>
+                                <button class="new-product-cart-btn"><i class="fa-solid fa-cart-shopping"></i>Add To
+                                    Cart</button>
+                            </a>
+                            <div class="new-product-text">
+                                <a href="#" class="new-product-title">Dress For Men</a>
+                                <span>R.S. 200/=</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="new-product-box">
+                            <a href="#" class="new-product-img">
+                                <img src="images/Product-29.jpg" alt="product" />
+                                <span>-60% off</span>
+                                <button class="new-product-cart-btn"><i class="fa-solid fa-cart-shopping"></i>Add To
+                                    Cart</button>
+                            </a>
+                            <div class="new-product-text">
+                                <a href="#" class="new-product-title">Dress For Men</a>
+                                <span>R.S. 200/=</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="new-product-box">
+                            <a href="#" class="new-product-img">
+                                <img src="images/product-30.jpg" alt="product" />
+                                <span>-15% off</span>
+                                <button class="new-product-cart-btn"><i class="fa-solid fa-cart-shopping"></i>Add To
+                                    Cart</button>
+                            </a>
+                            <div class="new-product-text">
+                                <a href="#" class="new-product-title">Dress For Men</a>
+                                <span>R.S. 200/=</span>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+        </div>
+
+
+    </section>
+
+    <section id="clients">
+
+        <div class="client-heading">
+            <h3>Testimonials</h3>
+            <p>What they say</p>
+        </div>
+
+        <div class="client-box-container">
+
+            <div class="swiper mySwiperTestimonials">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <div class="client-box">
+
+                            <div class="client-profile">
+                                <img src="images/t1.jpg" alt="client">
+                                <div class="profile-text">
+                                    <strong>Client number1</strong>
+                                    <span>Client</span>
+                                </div>
+                            </div>
+
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt esse ipsam quisquam reiciendis similique omnis voluptatem repellat deserunt quos suscipit consectetur, vitae consequatur quidem pariatur itaque maiores iusto repellendus ab!</p>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="client-box">
+
+                            <div class="client-profile">
+                                <img src="images/t1.jpg" alt="client">
+                                <div class="profile-text">
+                                    <strong>Client number1</strong>
+                                    <span>Client</span>
+                                </div>
+                            </div>
+
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam officiis molestiae esse eum, ea doloribus animi, cum ad corrupti, facilis culpa adipisci consequatur. Quos, recusandae? Commodi voluptatum saepe excepturi ipsam?</p>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="client-box">
+
+                            <div class="client-profile">
+                                <img src="images/t1.jpg" alt="client">
+                                <div class="profile-text">
+                                    <strong>Client number1</strong>
+                                    <span>Client</span>
+                                </div>
+                            </div>
+
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor cupiditate minus odio, commodi illum mollitia aut sint harum natus vitae nam error ducimus voluptatem nesciunt nihil aperiam, dolores pariatur aliquam.</p>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="client-box">
+
+                            <div class="client-profile">
+                                <img src="images/t1.jpg" alt="client">
+                                <div class="profile-text">
+                                    <strong>Client number1</strong>
+                                    <span>Client</span>
+                                </div>
+                            </div>
+
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero non quasi consequatur harum itaque eveniet consequuntur doloremque voluptates repellendus nam atque dignissimos, corporis voluptatibus, sint saepe et laudantium in expedita! </p>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+
+
+        </div>
+    </section>
+
+    <section id="blog">
+        <div class="blog-heading">
+            <h3>Latest Blogs</h3>
+            <span>There are latest blog posts</span>
+        </div>
+
+        <div class="blog-container">
+            <div class="blog-box">
+                <div class="blog-img">
+                    <img src="images/blog (4).jpg" alt="blog" />
+                </div>
+                <div class="blog-text">
+                    <span>19 Jul 2024 / Clothes</span>
+                    <a href="#" class="blog-title">Best Family Cloth Collection</a>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam culpa doloremque optio, dicta
+                        esse sed modi incidunt harum fugiat ducimus!</p>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+
+            <div class="blog-box">
+                <div class="blog-img">
+                    <img src="images/blog (4).jpg" alt="blog" />
+                </div>
+                <div class="blog-text">
+                    <span>19 Jul 2024 / Clothes</span>
+                    <a href="#" class="blog-title">Best Family Cloth Collection</a>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam culpa doloremque optio, dicta
+                        esse sed modi incidunt harum fugiat ducimus!</p>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+
+            <div class="blog-box">
+                <div class="blog-img">
+                    <img src="images/blog (4).jpg" alt="blog" />
+                </div>
+                <div class="blog-text">
+                    <span>19 Jul 2024 / Clothes</span>
+                    <a href="#" class="blog-title">Best Family Cloth Collection</a>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam culpa doloremque optio, dicta
+                        esse sed modi incidunt harum fugiat ducimus!</p>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-company-box">
+                <a href="#" class="logo">
+                    <img src="images/logo.jpg" alt="logo">
+                </a>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <div class="footer-social">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer-link-box">
+                <strong>Main Links</strong>
+                <ul>
+                    <li><a href="#">Men's</a></li>
+                    <li><a href="#">Women's</a></li>
+                    <li><a href="#">Kids</a></li>
+                    <li><a href="#">New Arrivals</a></li>
+                    <li><a href="#">Promotions</a></li>
+                </ul>
+            </div>
+            <div class="footer-link-box">
+                <strong>External Links</strong>
+                <ul>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-link-box">
+                <strong>Customer Support</strong>
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Shipping & Returns</a></li>
+                    <li><a href="#">Order Status</a></li>
+                    <li><a href="#">Payment Options</a></li>
+                    <li><a href="#">Contact Support</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span class="footer-owner">Made By Prabod Chamika</span>
+            <span class="copyright">&#169; Copyright 2024 - Prabod Chamika</span>
+        </div>
+    </footer>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiperNewProduct", {
+        slidesPerView: 1,
+        spaceBetween: 10,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        breakpoints: {
+          640: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 4,
+            spaceBetween: 20,
+          },
+          1024: {
+            slidesPerView: 5,
+            spaceBetween: 20,
+          },
+        },
+      });
+
+      /*Testimonials*/
+
+      var swiper = new Swiper(".mySwiperTestimonials", {
+        slidesPerView: 1,
+        spaceBetween: 10,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        breakpoints: {
+          640: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 4,
+            spaceBetween: 40,
+          },
+          1024: {
+            slidesPerView: 3,
+            spaceBetween: 20,
+          },
+        },
+      });
+
+      /*fix-header*/
+      window.addEventListener('scroll',function(){
+        var header = document.getElementById('header');
+        if (window.scrollY > 0) {
+            header.classList.add('header-fix');
+        }
+        else{
+            header,classList.remove('header-fix');
+        }
+      });
+    </script>
+    
+</body>
+
+</html>
